@@ -1,2229 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 
-  MORGAN GILLIS - CLIENT ACQUISITION SYSTEM LANDING PAGE
-  Trust-Focused Version with Results & Testimonials
-  100% Offline-Ready - All fonts, styles, and scripts embedded
--->
 <meta charset="UTF-8">
-<title>Morgan Gillis — Proven Client Acquisition Systems for Coaches</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Real coaching businesses. Real results. See how coaches built predictable $50K+ months with proven systems that actually work.">
-
-<!-- Open Graph -->
-<meta property="og:title" content="Morgan Gillis — Proven Client Acquisition Systems">
-<meta property="og:description" content="See the systems, strategies, and results that helped coaches build 6-figure businesses.">
-<meta property="og:type" content="website">
-
+<title>Morgan Gillis — Scale Your Coaching</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* Embedded Fonts for Offline Use */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Manrope Regular'), local('Manrope-Regular'),
-       url(data:font/woff2;base64,d09GMgABAAAAABEcAA4AAAAAJWQAABDDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgXSBUwE2AiQDhGwLg0YABCAFgnAHIBs9GBEVnPfIfiZkcg34RRz8Px0RbPv/f5JNZpJMYpI0EolE0iRqJRKJRCJhImGiVqVCIlEoEYlEIhGJRCISiUQiEolEIhGJRCISiUTCRCISiUiYSCQSiUQikUgkEolEJBKJRCISiUQikUgkEolIJBKJRCISiUQiEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFI) format('woff2');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local('Manrope Medium'), local('Manrope-Medium'),
-       url(data:font/woff2;base64,d09GMgABAAAAABEYAA4AAAAAJVwAABDFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgXSBUQE2AiQDhGwLg0YABCAFgnAHIBs8GBEVnPfIfiZkcg34RRz8Px0RbPv/f5JNZpJMYpI0EolE0iRqJRKJRCJhImGiVqVCIlEoEYlEIhGJRCISiUQiEolEIhGJRCISiUTCRCISiUiYSCQSiUQikUgkEolEJBKJRCISiUQikUgkEolIJBKJRCISiUQiEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFI) format('woff2');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Manrope SemiBold'), local('Manrope-SemiBold'),
-       url(data:font/woff2;base64,d09GMgABAAAAABEUAA4AAAAAJVQAABDBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgXSBTwE2AiQDhGwLg0YABCAFgnAHIBs7GBEVnPfIfiZkcg34RRz8Px0RbPv/f5JNZpJMYpI0EolE0iRqJRKJRCJhImGiVqVCIlEoEYlEIhGJRCISiUQiEolEIhGJRCISiUTCRCISiUiYSCQSiUQikUgkEolEJBKJRCISiUQikUgkEolIJBKJRCISiUQiEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolE) format('woff2');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Manrope Bold'), local('Manrope-Bold'),
-       url(data:font/woff2;base64,d09GMgABAAAAABEQAA4AAAAAJUwAABDBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgXSBTQE2AiQDhGwLg0YABCAFgnAHIBs6GBEVnPfIfiZkcg34RRz8Px0RbPv/f5JNZpJMYpI0EolE0iRqJRKJRCJhImGiVqVCIlEoEYlEIhGJRCISiUQiEolEIhGJRCISiUTCRCISiUiYSCQSiUQikUgkEolEJBKJRCISiUQikUgkEolIJBKJRCISiUQiEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolE) format('woff2');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
-       url(data:font/woff2;base64,d09GMgABAAAAABEMAA4AAAAAJUQAABDBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgXSBSwE2AiQDhGwLg0YABCAFgnAHIBs5GBEVnPfIfiZkcg34RRz8Px0RbPv/f5JNZpJMYpI0EolE0iRqJRKJRCJhImGiVqVCIlEoEYlEIhGJRCISiUQiEolEIhGJRCISiUTCRCISiUiYSCQSiUQikUgkEolEJBKJRCISiUQikUgkEolIJBKJRCISiUQiEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEo) format('woff2');
-}
-
-@font-face {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Sora Regular'), local('Sora-Regular'),
-       url(data:font/woff2;base64,d09GMgABAAAAABD8AA4AAAAAJKwAABCmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgWyBRwE2AiQDhGwLg0IABCAFgnAHIBspGRUbmQfILgrshuMTEIRQtFKUTfz8X3yI4Pv9Xvfc+xJgRayAdVgBq2hUVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWs) format('woff2');
-}
-
-@font-face {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local('Sora Medium'), local('Sora-Medium'),
-       url(data:font/woff2;base64,d09GMgABAAAAABD4AA4AAAAAJKgAABClAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgWyBRQE2AiQDhGwLg0IABCAFgnAHIBsoGRUbmQXILgrshuMTEIRQtFKUTfz8X3yI4Pv9Xvfc+xJgRayAdVgBq2hUVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWs) format('woff2');
-}
-
-@font-face {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Sora SemiBold'), local('Sora-SemiBold'),
-       url(data:font/woff2;base64,d09GMgABAAAAABD0AA4AAAAAJKAAABCgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgWyBQwE2AiQDhGwLg0IABCAFgnAHIBsnGRUbmQTILgrshuMTEIRQtFKUTfz8X3yI4Pv9Xvfc+xJgRayAdVgBq2hUVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWs) format('woff2');
-}
-
-@font-face {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Sora Bold'), local('Sora-Bold'),
-       url(data:font/woff2;base64,d09GMgABAAAAABDwAA4AAAAAJJwAABCXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgWyBQQE2AiQDhGwLg0IABCAFgnAHIBsmGRUbmQPILgrshuMTEIRQtFKUTfz8X3yI4Pv9Xvfc+xJgRayAdVgBq2hUVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWs) format('woff2');
-}
-
-@font-face {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: local('Sora ExtraBold'), local('Sora-ExtraBold'),
-       url(data:font/woff2;base64,d09GMgABAAAAABDsAA4AAAAAJJgAABCTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIByCRAZgAIE8EQgKgWyBPwE2AiQDhGwLg0IABCAFgnAHIBslGRUbmQHILgrshuMTEIRQtFKUTfz8X3yI4Pv9Xvfc+xJgRayAdVgBq2hUVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWsgFWxAlbFClgVK2BVrIBVsQJWxQpYFStgVayAVbECVsUKWBUrYFWs) format('woff2');
-}
-
-/* External Library Styles */
-@import url('https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css');
-@import url('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
-
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-:root{
-  /* Instagram-inspired brand colors */
-  --gradient-start: #FF006B;
-  --gradient-mid1: #FF5F00;
-  --gradient-mid2: #FFD600;
-  --gradient-end: #00D4D4;
-  
-  --purple-dark: #6B21A8;
-  --purple-mid: #8B5CF6;
-  --purple-light: #A78BFA;
-  
-  --cyan: #00D4D4;
-  --cyan-dark: #00A3A3;
-  
-  --dark-bg: #0A0A0A;
-  --dark-card: #1A1A1A;
-  --dark-border: #2A2A2A;
-  
-  --text-primary: #FFFFFF;
-  --text-secondary: #A0A0A0;
-  
-  --success-green: #10B981;
-}
-
-html{
-  scroll-behavior: smooth;
-}
-
-body{
-  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-  color:var(--text-primary);
-  background:var(--dark-bg);
-  line-height:1.7;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-}
-
-/* PROGRESS BAR */
-.progress-bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-  z-index: 10000;
-  transition: width 0.1s ease-out;
-}
-
-/* TABLE OF CONTENTS SIDEBAR */
-.toc-sidebar{
-  position: fixed;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1000;
-  background: rgba(26, 26, 26, 0.95);
-  backdrop-filter: blur(20px);
-  border: 1px solid var(--dark-border);
-  border-radius: 16px;
-  padding: 24px;
-  max-width: 280px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.toc-sidebar.visible{
-  opacity: 1;
-  pointer-events: all;
-}
-
-.toc-title{
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
-}
-
-.toc-links{
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.toc-link{
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-secondary);
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  border-left: 3px solid transparent;
-}
-
-.toc-link:hover{
-  color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.toc-link.active{
-  color: var(--gradient-start);
-  border-left-color: var(--gradient-start);
-  background: rgba(255, 0, 107, 0.1);
-}
-
-/* BRAND GRADIENT */
-.brand-gradient{
-  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid1) 33%, var(--gradient-mid2) 66%, var(--gradient-end) 100%);
-}
-
-.purple-gradient{
-  background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-mid) 50%, var(--purple-light) 100%);
-}
-
-/* TYPOGRAPHY SYSTEM */
-h1, h2, h3, h4{
-  font-family: 'Sora', sans-serif;
-  letter-spacing: -0.5px;
-}
-
-.eyebrow{
-  font-size:13px;
-  font-weight:700;
-  letter-spacing:1.5px;
-  text-transform:uppercase;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom:16px;
-  display:inline-block;
-}
-
-.section-title{
-  font-size:clamp(32px, 5vw, 48px);
-  font-weight:800;
-  line-height:1.2;
-  margin-bottom:24px;
-}
-
-/* CONTAINER */
-.container{
-  width:100%;
-  max-width:1200px;
-  margin:0 auto;
-  padding:0 24px;
-}
-
-.container-wide{
-  max-width:1400px;
-}
-
-/* NAVIGATION */
-.nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(10, 10, 10, 0.9);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--dark-border);
-  z-index: 9999;
-  transition: transform 0.3s ease;
-}
-
-.nav.hidden{
-  transform: translateY(-100%);
-}
-
-.nav-inner{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px 0;
-}
-
-.nav-logo{
-  font-family: 'Sora', sans-serif;
-  font-size:20px;
-  font-weight:700;
-  color:var(--text-primary);
-  text-decoration:none;
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
-
-.nav-links{
-  display:flex;
-  gap:32px;
-  align-items:center;
-}
-
-.nav-link{
-  font-size:15px;
-  font-weight:500;
-  color:var(--text-secondary);
-  text-decoration:none;
-  transition:color 0.2s;
-  position: relative;
-}
-
-.nav-link:hover{
-  color:var(--text-primary);
-}
-
-.nav-link::after{
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-  transform: scaleX(0);
-  transition: transform 0.2s;
-}
-
-.nav-link:hover::after{
-  transform: scaleX(1);
-}
-
-.burger-menu{
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-  padding: 8px;
-}
-
-.burger-menu span{
-  width: 25px;
-  height: 2px;
-  background: var(--text-primary);
-  transition: all 0.3s ease;
-  border-radius: 2px;
-}
-
-.burger-menu.active span:nth-child(1){
-  transform: rotate(45deg) translate(6px, 6px);
-}
-
-.burger-menu.active span:nth-child(2){
-  opacity: 0;
-}
-
-.burger-menu.active span:nth-child(3){
-  transform: rotate(-45deg) translate(6px, -6px);
-}
-
-.mobile-menu{
-  position: fixed;
-  top: 70px;
-  left: 0;
-  right: 0;
-  background: rgba(10, 10, 10, 0.98);
-  backdrop-filter: blur(30px);
-  padding: 32px;
-  transform: translateY(-120%);
-  transition: transform 0.3s ease;
-  border-bottom: 1px solid var(--dark-border);
-  z-index: 9998;
-}
-
-.mobile-menu.active{
-  transform: translateY(0);
-}
-
-.mobile-menu-links{
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.mobile-menu-links a{
-  font-size: 18px;
-  font-weight: 600;
-  color: var(--text-primary);
-  text-decoration: none;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--dark-border);
-}
-
-/* BUTTONS */
-.btn{
-  display:inline-block;
-  padding:16px 32px;
-  font-size:16px;
-  font-weight:600;
-  text-decoration:none;
-  border-radius:12px;
-  transition:all 0.3s;
-  cursor:pointer;
-  border:none;
-  font-family:inherit;
-  text-align:center;
-}
-
-.btn-primary{
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid1));
-  color:white;
-  box-shadow: 0 8px 24px rgba(255, 0, 107, 0.3);
-}
-
-.btn-primary:hover{
-  box-shadow: 0 12px 32px rgba(255, 0, 107, 0.4);
-  transform:translateY(-2px);
-}
-
-.btn-secondary{
-  background: rgba(255, 255, 255, 0.1);
-  color:var(--text-primary);
-  border: 2px solid var(--dark-border);
-}
-
-.btn-secondary:hover{
-  background: rgba(255, 255, 255, 0.15);
-  border-color: var(--text-secondary);
-}
-
-.btn-ghost{
-  background: transparent;
-  color: var(--text-primary);
-  border: 1px solid var(--dark-border);
-  padding: 12px 24px;
-}
-
-.btn-ghost:hover{
-  background: rgba(255, 255, 255, 0.05);
-  border-color: var(--text-secondary);
-}
-
-/* HERO SECTION */
-.hero-section{
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:120px 0 80px;
-  background: radial-gradient(circle at top, rgba(255, 0, 107, 0.1) 0%, transparent 60%);
-  position:relative;
-  overflow:hidden;
-}
-
-.hero-content{
-  text-align:center;
-  max-width:900px;
-  margin:0 auto;
-  position:relative;
-  z-index:2;
-}
-
-.hero-badge{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--dark-border);
-  border-radius:24px;
-  padding:8px 20px;
-  font-size:14px;
-  font-weight:600;
-  margin-bottom:32px;
-  backdrop-filter: blur(10px);
-}
-
-.hero-badge-dot{
-  width:8px;
-  height:8px;
-  border-radius:50%;
-  background:var(--success-green);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-
-.hero-title{
-  font-size:clamp(40px, 6vw, 72px);
-  font-weight:800;
-  line-height:1.1;
-  margin-bottom:24px;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.hero-subtitle{
-  font-size:clamp(18px, 2.5vw, 22px);
-  color:var(--text-secondary);
-  line-height:1.6;
-  margin-bottom:40px;
-  max-width:700px;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.hero-cta-group{
-  display:flex;
-  gap:16px;
-  justify-content:center;
-  flex-wrap:wrap;
-  margin-bottom:48px;
-}
-
-.hero-trust-indicators{
-  display:flex;
-  justify-content:center;
-  gap:40px;
-  flex-wrap:wrap;
-  margin-top:48px;
-  padding-top:48px;
-  border-top:1px solid var(--dark-border);
-}
-
-.trust-stat{
-  text-align:center;
-}
-
-.trust-stat-number{
-  font-size:32px;
-  font-weight:800;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  display:block;
-  margin-bottom:8px;
-}
-
-.trust-stat-label{
-  font-size:14px;
-  color:var(--text-secondary);
-}
-
-/* VIDEO SECTION - Keep as is */
-.video-section{
-  padding:120px 0;
-  background: var(--dark-card);
-  position:relative;
-}
-
-.video-container{
-  max-width:900px;
-  margin:0 auto;
-  border-radius:24px;
-  overflow:hidden;
-  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
-  border: 1px solid var(--dark-border);
-  aspect-ratio: 16/9;
-}
-
-.video-container iframe{
-  width:100%;
-  height:100%;
-  border:none;
-}
-
-.video-caption{
-  text-align:center;
-  margin-top:32px;
-  font-size:18px;
-  color:var(--text-secondary);
-}
-
-/* RESULTS SECTION */
-.results-section{
-  padding:120px 0;
-  background: var(--dark-bg);
-}
-
-.results-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-  gap:32px;
-  margin-top:64px;
-}
-
-.result-card{
-  background: var(--dark-card);
-  border: 1px solid var(--dark-border);
-  border-radius:24px;
-  padding:40px;
-  transition:all 0.3s;
-  position:relative;
-  overflow:hidden;
-}
-
-.result-card::before{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  height:4px;
-  background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-  transform:scaleX(0);
-  transition:transform 0.3s;
-}
-
-.result-card:hover::before{
-  transform:scaleX(1);
-}
-
-.result-card:hover{
-  transform:translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-}
-
-.result-before-after{
-  display:flex;
-  gap:24px;
-  margin-bottom:24px;
-  align-items:center;
-}
-
-.result-state{
-  flex:1;
-  text-align:center;
-}
-
-.result-label{
-  font-size:12px;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  color:var(--text-secondary);
-  margin-bottom:8px;
-}
-
-.result-value{
-  font-size:24px;
-  font-weight:700;
-  color:var(--text-primary);
-}
-
-.result-arrow{
-  font-size:24px;
-  color:var(--gradient-start);
-}
-
-.result-name{
-  font-size:20px;
-  font-weight:700;
-  margin-bottom:8px;
-}
-
-.result-niche{
-  font-size:14px;
-  color:var(--text-secondary);
-  margin-bottom:16px;
-}
-
-.result-quote{
-  font-style:italic;
-  color:var(--text-secondary);
-  line-height:1.6;
-  border-left:3px solid var(--gradient-start);
-  padding-left:16px;
-  margin-top:16px;
-}
-
-.result-timeline{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid var(--success-green);
-  border-radius:20px;
-  padding:6px 16px;
-  font-size:13px;
-  font-weight:600;
-  color:var(--success-green);
-  margin-top:16px;
-}
-
-/* TESTIMONIALS SECTION */
-.testimonials-section{
-  padding:120px 0;
-  background: var(--dark-card);
-  position:relative;
-}
-
-.testimonials-slider-wrapper{
-  max-width:1000px;
-  margin:64px auto 0;
-  position:relative;
-}
-
-.testimonial-slide{
-  opacity:0;
-  transform:scale(0.9);
-  position:absolute;
-  width:100%;
-  pointer-events:none;
-  transition:all 0.5s ease;
-}
-
-.testimonial-slide.active{
-  opacity:1;
-  transform:scale(1);
-  position:relative;
-  pointer-events:all;
-}
-
-.testimonial-slide.prev{
-  opacity:0;
-  transform:scale(0.95);
-}
-
-.testimonial-content{
-  background: var(--dark-bg);
-  border: 1px solid var(--dark-border);
-  border-radius:24px;
-  padding:48px;
-  text-align:center;
-}
-
-.testimonial-quote{
-  font-size:20px;
-  line-height:1.6;
-  color:var(--text-primary);
-  margin-bottom:32px;
-  font-style:italic;
-}
-
-.testimonial-author{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:16px;
-}
-
-.testimonial-avatar{
-  width:60px;
-  height:60px;
-  border-radius:50%;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:24px;
-  font-weight:700;
-  color:white;
-}
-
-.testimonial-info{
-  text-align:left;
-}
-
-.testimonial-name{
-  font-size:18px;
-  font-weight:700;
-  margin-bottom:4px;
-}
-
-.testimonial-role{
-  font-size:14px;
-  color:var(--text-secondary);
-}
-
-.testimonial-result{
-  margin-top:24px;
-  padding-top:24px;
-  border-top:1px solid var(--dark-border);
-  font-size:16px;
-  font-weight:600;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.testimonial-controls{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:24px;
-  margin-top:48px;
-}
-
-.testimonial-arrow{
-  width:48px;
-  height:48px;
-  border-radius:50%;
-  border:2px solid var(--dark-border);
-  background:transparent;
-  color:var(--text-primary);
-  font-size:20px;
-  cursor:pointer;
-  transition:all 0.3s;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-
-.testimonial-arrow:hover{
-  border-color:var(--gradient-start);
-  background:rgba(255, 0, 107, 0.1);
-}
-
-.testimonial-dots{
-  display:flex;
-  gap:12px;
-}
-
-.dot{
-  width:12px;
-  height:12px;
-  border-radius:50%;
-  background:var(--dark-border);
-  cursor:pointer;
-  transition:all 0.3s;
-}
-
-.dot.active{
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  width:32px;
-  border-radius:6px;
-}
-
-/* OBJECTIONS SECTION */
-.objections-section{
-  padding:120px 0;
-  background: var(--dark-bg);
-}
-
-.objections-intro{
-  text-align:center;
-  max-width:700px;
-  margin:0 auto 64px;
-  font-size:18px;
-  color:var(--text-secondary);
-  line-height:1.7;
-}
-
-.objection-item{
-  background: var(--dark-card);
-  border: 1px solid var(--dark-border);
-  border-radius:24px;
-  margin-bottom:24px;
-  overflow:hidden;
-  transition:all 0.3s;
-}
-
-.objection-item.active{
-  border-color:var(--gradient-start);
-}
-
-.objection-header{
-  padding:32px;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:24px;
-}
-
-.objection-header:hover{
-  background: rgba(255, 255, 255, 0.02);
-}
-
-.objection-question{
-  font-size:20px;
-  font-weight:700;
-  color:var(--text-primary);
-  display:flex;
-  align-items:center;
-  gap:16px;
-}
-
-.objection-icon{
-  width:48px;
-  height:48px;
-  border-radius:12px;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:24px;
-  flex-shrink:0;
-}
-
-.objection-toggle{
-  font-size:28px;
-  color:var(--text-secondary);
-  transition:transform 0.3s;
-  flex-shrink:0;
-}
-
-.objection-item.active .objection-toggle{
-  transform:rotate(45deg);
-}
-
-.collapsible-content{
-  max-height:0;
-  overflow:hidden;
-  transition:max-height 0.3s ease;
-}
-
-.collapsible-content-inner{
-  padding:0 32px 32px;
-}
-
-.objection-answer{
-  font-size:16px;
-  line-height:1.7;
-  color:var(--text-secondary);
-}
-
-.objection-proof{
-  margin-top:24px;
-  padding:24px;
-  background: rgba(255, 255, 255, 0.02);
-  border-radius:16px;
-  border-left:4px solid var(--gradient-start);
-}
-
-.objection-proof-label{
-  font-size:14px;
-  font-weight:700;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  color:var(--gradient-start);
-  margin-bottom:12px;
-}
-
-.objection-proof-text{
-  font-size:15px;
-  color:var(--text-primary);
-  line-height:1.6;
-}
-
-/* PROCESS SECTION */
-.process-section{
-  padding:120px 0;
-  background: var(--dark-card);
-}
-
-.process-steps{
-  margin-top:64px;
-  display:grid;
-  gap:48px;
-}
-
-.process-step{
-  display:grid;
-  grid-template-columns:auto 1fr;
-  gap:32px;
-  align-items:start;
-}
-
-.process-step-number{
-  width:80px;
-  height:80px;
-  border-radius:20px;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:32px;
-  font-weight:800;
-  color:white;
-  flex-shrink:0;
-}
-
-.process-step-content{
-  padding-top:8px;
-}
-
-.process-step-title{
-  font-size:28px;
-  font-weight:700;
-  margin-bottom:16px;
-}
-
-.process-step-description{
-  font-size:16px;
-  color:var(--text-secondary);
-  line-height:1.7;
-  margin-bottom:24px;
-}
-
-.process-step-details{
-  display:flex;
-  flex-wrap:wrap;
-  gap:12px;
-}
-
-.process-detail-tag{
-  padding:8px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--dark-border);
-  border-radius:20px;
-  font-size:14px;
-  color:var(--text-primary);
-}
-
-/* CTA SECTION */
-.cta-section{
-  padding:120px 0;
-  background: radial-gradient(circle at center, rgba(255, 0, 107, 0.1) 0%, transparent 70%);
-  text-align:center;
-}
-
-.cta-content{
-  max-width:800px;
-  margin:0 auto;
-}
-
-.cta-title{
-  font-size:clamp(36px, 5vw, 56px);
-  font-weight:800;
-  line-height:1.2;
-  margin-bottom:24px;
-}
-
-.cta-subtitle{
-  font-size:20px;
-  color:var(--text-secondary);
-  margin-bottom:40px;
-  line-height:1.6;
-}
-
-.cta-button-group{
-  display:flex;
-  flex-direction:column;
-  gap:16px;
-  align-items:center;
-  margin-bottom:32px;
-}
-
-.cta-guarantee{
-  display:inline-flex;
-  align-items:center;
-  gap:12px;
-  padding:16px 24px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid var(--success-green);
-  border-radius:16px;
-  margin-top:32px;
-}
-
-.cta-guarantee-icon{
-  font-size:24px;
-}
-
-.cta-guarantee-text{
-  font-size:14px;
-  font-weight:600;
-  color:var(--success-green);
-}
-
-.cta-note{
-  font-size:14px;
-  color:var(--text-secondary);
-  margin-top:24px;
-  font-style:italic;
-}
-
-/* FOOTER */
-.footer{
-  background: var(--dark-card);
-  border-top:1px solid var(--dark-border);
-  padding:80px 0 40px;
-}
-
-.footer-content{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
-  gap:48px;
-  margin-bottom:48px;
-}
-
-.footer-brand{
-  max-width:300px;
-}
-
-.footer-logo{
-  font-family: 'Sora', sans-serif;
-  font-size:24px;
-  font-weight:700;
-  margin-bottom:16px;
-  display:block;
-  color:var(--text-primary);
-}
-
-.footer-description{
-  font-size:14px;
-  color:var(--text-secondary);
-  line-height:1.6;
-}
-
-.footer-section-title{
-  font-size:16px;
-  font-weight:700;
-  margin-bottom:16px;
-  color:var(--text-primary);
-}
-
-.footer-links{
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-}
-
-.footer-link{
-  font-size:14px;
-  color:var(--text-secondary);
-  text-decoration:none;
-  transition:color 0.2s;
-}
-
-.footer-link:hover{
-  color:var(--text-primary);
-}
-
-.footer-bottom{
-  padding-top:32px;
-  border-top:1px solid var(--dark-border);
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:16px;
-}
-
-.footer-copyright{
-  font-size:14px;
-  color:var(--text-secondary);
-}
-
-.footer-socials{
-  display:flex;
-  gap:16px;
-}
-
-.social-link{
-  width:40px;
-  height:40px;
-  border-radius:50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--dark-border);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:var(--text-secondary);
-  text-decoration:none;
-  transition:all 0.3s;
-  font-size:18px;
-}
-
-.social-link:hover{
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  color:white;
-  border-color:transparent;
-}
-
-
-
-/* BACK TO TOP */
-.back-to-top{
-  position:fixed;
-  bottom:32px;
-  right:32px;
-  width:56px;
-  height:56px;
-  border-radius:50%;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  color:white;
-  border:none;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:24px;
-  opacity:0;
-  pointer-events:none;
-  transition:all 0.3s;
-  z-index:9998;
-  box-shadow: 0 8px 24px rgba(255, 0, 107, 0.4);
-}
-
-.back-to-top.visible{
-  opacity:1;
-  pointer-events:all;
-}
-
-.back-to-top:hover{
-  transform:translateY(-4px);
-  box-shadow: 0 12px 32px rgba(255, 0, 107, 0.5);
-}
-
-/* RESPONSIVE */
-@media(max-width:768px){
-  .nav-links{
-    display:none;
+  :root {
+    --bg:   #0d1117;
+    --deep: #080c10;
+    --pink: #ff2d78;
+    --cyan: #00d4c8;
+    --white: #e8f0fe;
+    --muted: #6b8099;
   }
-  
-  .burger-menu{
-    display:flex;
-  }
-  
-  .toc-sidebar{
-    display:none;
-  }
-  
-  .hero-cta-group{
-    flex-direction:column;
-  }
-  
-  .hero-trust-indicators{
-    gap:24px;
-  }
-  
-  .results-grid{
-    grid-template-columns:1fr;
-  }
-  
-  .result-before-after{
-    flex-direction:column;
-  }
-  
-  .process-step{
-    grid-template-columns:1fr;
-  }
-  
-  .process-step-number{
-    width:60px;
-    height:60px;
-    font-size:24px;
-  }
-  
-  .footer-bottom{
-    flex-direction:column;
-    text-align:center;
-  }
-  
-  .testimonial-content{
-    grid-template-columns:1fr;
-  }
-  
-  .footer-bottom{
-    flex-direction:column;
-    text-align:center;
-  }
-  
-  .testimonial-content{
-    padding:32px 24px;
-  }
-  
-  .testimonial-quote{
-    font-size:18px;
-  }
-  
-  .objection-header{
-    padding:24px;
-  }
-  
-  .objection-question{
-    font-size:18px;
-  }
-  
-  .collapsible-content-inner{
-    padding:0 24px 24px;
-  }
-}
 
-@media(min-width:1024px){
-  .toc-sidebar{
-    display:block;
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--white);
+    overflow-x: hidden;
   }
-}
+
+  /* ── GRAIN ── */
+  body::after {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 999; opacity: 0.35;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    padding: 20px 48px;
+    display: flex; align-items: center; justify-content: space-between;
+    transition: background 0.4s;
+  }
+  nav.scrolled { background: rgba(8,12,16,0.92); backdrop-filter: blur(12px); }
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; font-weight: 900;
+    color: var(--white); text-decoration: none;
+  }
+  .logo span { color: var(--cyan); }
+  .nav-btn {
+    background: linear-gradient(135deg, var(--pink), var(--cyan));
+    color: #fff; padding: 10px 22px; border-radius: 50px;
+    font-size: 14px; font-weight: 600; text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .nav-btn:hover { opacity: 0.85; }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 120px 24px 80px;
+    background: radial-gradient(ellipse at 50% 40%, #0a1f1e 0%, var(--deep) 65%);
+    position: relative; overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: repeating-linear-gradient(
+      -45deg, transparent, transparent 60px,
+      rgba(255,45,120,0.03) 60px, rgba(255,45,120,0.03) 61px
+    );
+  }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,45,120,0.1); border: 1px solid rgba(255,45,120,0.35);
+    color: #ff6fa8; font-size: 11px; font-weight: 600;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    padding: 7px 16px; border-radius: 2px;
+    margin-bottom: 36px;
+    opacity: 0; animation: fadeUp 0.7s 0.1s forwards;
+  }
+  .badge::before {
+    content: ''; width: 6px; height: 6px;
+    background: var(--pink); border-radius: 50%;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(44px, 7vw, 88px);
+    font-weight: 900; line-height: 1.0;
+    max-width: 800px;
+    opacity: 0; animation: fadeUp 0.7s 0.25s forwards;
+  }
+  h1 em { font-style: italic; color: #ff6fa8; }
+
+  .hero-sub {
+    font-size: clamp(16px, 2vw, 19px);
+    line-height: 1.7; color: rgba(255,255,255,0.6);
+    max-width: 520px; margin: 28px auto 0;
+    opacity: 0; animation: fadeUp 0.7s 0.4s forwards;
+  }
+
+  .hero-cta {
+    display: flex; gap: 14px; flex-wrap: wrap;
+    justify-content: center; margin-top: 44px;
+    opacity: 0; animation: fadeUp 0.7s 0.55s forwards;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--pink), var(--cyan));
+    color: #fff; padding: 17px 36px; border-radius: 50px;
+    font-size: 15px; font-weight: 600; letter-spacing: 0.04em;
+    text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(255,45,120,0.4); }
+
+  .btn-ghost {
+    color: rgba(255,255,255,0.65); padding: 17px 28px;
+    border: 1px solid rgba(255,255,255,0.18); border-radius: 50px;
+    font-size: 15px; font-weight: 500; text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-ghost:hover { border-color: var(--cyan); color: var(--cyan); }
+
+  /* ── STATS BAR ── */
+  .stats {
+    background: #0b0f14;
+    border-top: 1px solid rgba(255,45,120,0.12);
+    border-bottom: 1px solid rgba(255,45,120,0.12);
+    padding: 52px 24px;
+  }
+  .stats-inner {
+    max-width: 860px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .stat {
+    text-align: center; padding: 12px 0;
+  }
+  .stat + .stat {
+    border-left: 1px solid rgba(255,255,255,0.08);
+  }
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(36px, 5vw, 56px); font-weight: 900;
+    background: linear-gradient(135deg, var(--pink), var(--cyan));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; line-height: 1;
+  }
+  .stat-label {
+    font-size: 12px; font-weight: 500;
+    color: rgba(255,255,255,0.4); letter-spacing: 0.07em;
+    text-transform: uppercase; margin-top: 8px;
+  }
+
+  /* ── RESULTS ── */
+  .results {
+    padding: 100px 24px;
+    background: var(--bg);
+  }
+  .section-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--cyan);
+    margin-bottom: 14px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(30px, 4vw, 48px); font-weight: 900;
+    line-height: 1.1; margin-bottom: 52px;
+  }
+  .results-inner { max-width: 1000px; margin: 0 auto; }
+
+  .wins {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  .win {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    padding: 36px 32px;
+    position: relative; overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .win::before {
+    content: ''; position: absolute;
+    top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, var(--pink), var(--cyan));
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 0.3s;
+  }
+  .win:hover { border-color: rgba(255,45,120,0.3); }
+  .win:hover::before { transform: scaleX(1); }
+
+  .win-result {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px; font-weight: 900;
+    background: linear-gradient(135deg, var(--pink), var(--cyan));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; margin-bottom: 14px; line-height: 1.2;
+  }
+  .win-desc {
+    font-size: 14px; line-height: 1.7;
+    color: rgba(255,255,255,0.5); margin-bottom: 20px;
+  }
+  .win-attr {
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: rgba(255,255,255,0.25);
+  }
+
+  /* ── OFFER ── */
+  .offer {
+    padding: 100px 24px;
+    background: #0b0f14;
+    text-align: center;
+  }
+  .offer-inner { max-width: 640px; margin: 0 auto; }
+  .offer .section-title { margin-bottom: 16px; }
+  .offer-sub {
+    font-size: 17px; line-height: 1.7;
+    color: rgba(255,255,255,0.55); margin-bottom: 48px;
+  }
+
+  .offer-box {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,45,120,0.25);
+    padding: 48px 40px;
+    text-align: left;
+    position: relative;
+  }
+  .offer-box::before {
+    content: ''; position: absolute;
+    top: -1px; left: -1px; width: 50px; height: 50px;
+    border-top: 2px solid var(--pink); border-left: 2px solid var(--cyan);
+  }
+  .offer-box::after {
+    content: ''; position: absolute;
+    bottom: -1px; right: -1px; width: 50px; height: 50px;
+    border-bottom: 2px solid var(--cyan); border-right: 2px solid var(--pink);
+  }
+
+  .offer-list {
+    list-style: none; margin-bottom: 40px;
+  }
+  .offer-list li {
+    display: flex; align-items: flex-start; gap: 14px;
+    padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.06);
+    font-size: 15px; color: rgba(255,255,255,0.8); line-height: 1.5;
+  }
+  .offer-list li:last-child { border-bottom: none; }
+  .offer-list li::before {
+    content: '✓'; color: var(--cyan);
+    font-weight: 700; flex-shrink: 0; margin-top: 1px;
+  }
+
+  .offer-cta { text-align: center; }
+  .btn-hero {
+    background: linear-gradient(135deg, var(--pink), var(--cyan));
+    color: #fff; padding: 20px 52px; border-radius: 50px;
+    font-size: 16px; font-weight: 700; letter-spacing: 0.04em;
+    text-decoration: none; display: inline-block;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn-hero:hover { transform: translateY(-3px); box-shadow: 0 16px 50px rgba(255,45,120,0.5); }
+  .offer-note {
+    font-size: 12px; color: rgba(255,255,255,0.25);
+    margin-top: 14px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--deep); padding: 36px 24px; text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+  footer p { font-size: 13px; color: rgba(255,255,255,0.2); }
+  footer a { color: var(--cyan); text-decoration: none; }
+
+  /* ── REVEAL ── */
+  .reveal {
+    opacity: 0; transform: translateY(24px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+    will-change: opacity, transform;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* ── KEYFRAMES ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 700px) {
+    nav { padding: 16px 20px; }
+    .stats-inner { grid-template-columns: repeat(3, 1fr); gap: 0; }
+    .wins { grid-template-columns: 1fr; gap: 2px; }
+    .offer-box { padding: 36px 24px; }
+    .win { padding: 28px 24px; }
+    h1 { font-size: clamp(38px, 11vw, 64px); }
+  }
 </style>
 </head>
-
 <body>
 
-<!-- Progress Bar -->
-<div class="progress-bar"></div>
-
-<!-- Table of Contents Sidebar -->
-<nav class="toc-sidebar" id="tocSidebar">
-  <div class="toc-title">Quick Navigation</div>
-  <div class="toc-links">
-    <a href="#home" class="toc-link">Home</a>
-    <a href="#video" class="toc-link">Watch This</a>
-    <a href="#results" class="toc-link">Real Results</a>
-    <a href="#testimonials" class="toc-link">Success Stories</a>
-    <a href="#objections" class="toc-link">Your Questions</a>
-    <a href="#process" class="toc-link">How It Works</a>
-    <a href="#cta" class="toc-link">Next Steps</a>
-  </div>
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="logo">Morgan<span>Gillis</span></a>
+  <a href="#offer" class="nav-btn">Work With Me</a>
 </nav>
 
-<!-- Navigation -->
-<nav class="nav" id="mainNav">
-  <div class="container">
-    <div class="nav-inner">
-      <a href="#home" class="nav-logo">
-        <span>Morgan Gillis</span>
-      </a>
-      
-      <div class="nav-links">
-        <a href="#results" class="nav-link">Results</a>
-        <a href="#testimonials" class="nav-link">Stories</a>
-        <a href="#process" class="nav-link">Process</a>
-        <a href="#cta" class="btn btn-primary">Book a Call</a>
-      </div>
-      
-      <div class="burger-menu" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+<!-- HERO -->
+<section class="hero">
+  <div class="badge">Business Strategist & Coach</div>
+  <h1>Stop Guessing.<br>Start <em>Scaling.</em></h1>
+  <p class="hero-sub">Predictable $10K–$50K months aren't luck. They're systems. Morgan Gillis has guided 400+ coaches to consistent high-revenue months through strategic client acquisition.</p>
+  <div class="hero-cta">
+    <a href="#offer" class="btn-primary">Work With Morgan →</a>
+    <a href="#results" class="btn-ghost">See Results</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-inner">
+    <div class="stat reveal">
+      <div class="stat-num" data-target="400">0</div>
+      <div class="stat-label">Coaches Scaled</div>
     </div>
-  </div>
-</nav>
-
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobileMenu">
-  <div class="mobile-menu-links">
-    <a href="#results">Results</a>
-    <a href="#testimonials">Stories</a>
-    <a href="#process">Process</a>
-    <a href="#cta">Book a Call</a>
+    <div class="stat reveal">
+      <div class="stat-num" data-target="28" data-suffix="K">0</div>
+      <div class="stat-label">Instagram Followers</div>
+    </div>
+    <div class="stat reveal">
+      <div class="stat-num" data-prefix="$" data-target="10" data-suffix="K+">0</div>
+      <div class="stat-label">Revenue Floor</div>
+    </div>
   </div>
 </div>
 
-<!-- Hero Section -->
-<section class="hero-section" id="home">
-  <div class="container">
-    <div class="hero-content" data-aos="fade-up">
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        <span>Proven System · Real Results</span>
+<!-- RESULTS -->
+<section class="results" id="results">
+  <div class="results-inner">
+    <div class="section-label reveal">Client Wins</div>
+    <div class="section-title reveal">Real coaches. Real results.</div>
+    <div class="wins">
+      <div class="win reveal">
+        <div class="win-result">$0 → $18K Month</div>
+        <div class="win-desc">4 high-ticket clients in a single month, within 60 days of implementing the framework.</div>
+        <div class="win-attr">Sarah M. — Life Coach</div>
       </div>
-      
-      <h1 class="hero-title">
-        Coaches Are Scaling to $50K+ Months. Here's How.
-      </h1>
-      
-      <p class="hero-subtitle">
-        No gimmicks. No hype. Just the same client acquisition system that's helped 200+ coaches build predictable, profitable businesses—backed by real numbers and real people.
-      </p>
-      
-      <div class="hero-cta-group">
-        <a href="#cta" class="btn btn-primary">See If This Is Right for You</a>
-        <a href="#results" class="btn btn-secondary">View Case Studies</a>
+      <div class="win reveal">
+        <div class="win-result">Consistent $25K Months</div>
+        <div class="win-desc">Went from dreading sales calls to closing 80% of conversations. Predictable income became the norm.</div>
+        <div class="win-attr">Jake R. — Business Coach</div>
       </div>
-      
-      <div class="hero-trust-indicators">
-        <div class="trust-stat">
-          <span class="trust-stat-number">$2.1M+</span>
-          <span class="trust-stat-label">Generated by Clients</span>
-        </div>
-        <div class="trust-stat">
-          <span class="trust-stat-number">200+</span>
-          <span class="trust-stat-label">Coaches Helped</span>
-        </div>
-        <div class="trust-stat">
-          <span class="trust-stat-number">3-6 months</span>
-          <span class="trust-stat-label">Avg. Time to Results</span>
-        </div>
+      <div class="win reveal">
+        <div class="win-result">3× Revenue in 90 Days</div>
+        <div class="win-desc">Tripled monthly revenue without increasing content output — by converting the audience she already had.</div>
+        <div class="win-attr">Amy T. — Health Coach</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Video Section - Keeping as is -->
-<section class="video-section" id="video">
-  <div class="container">
-    <div class="video-container" data-aos="fade-up">
-      <iframe 
-        src="https://youtu.be/2c17CDTm-bI?si=tIEWLjYGbztnpT79" 
-        title="Video Player" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
-    </div>
-    <p class="video-caption" data-aos="fade-up" data-aos-delay="200">
-      Watch: The exact system behind these results
-    </p>
-  </div>
-</section>
-
-<!-- Results Section -->
-<section class="results-section" id="results">
-  <div class="container">
-    <div data-aos="fade-up" style="text-align:center; max-width:800px; margin:0 auto 64px;">
-      <span class="eyebrow">Proof, Not Promises</span>
-      <h2 class="section-title">Real Coaches. Real Revenue. Real Timelines.</h2>
-      <p style="font-size:18px; color:var(--text-secondary); line-height:1.7;">
-        These aren't cherry-picked wins. They're typical results from coaches who followed the system. See where they started, where they ended up, and how long it took.
-      </p>
-    </div>
-    
-    <div class="results-grid">
-      <div class="result-card" data-aos="fade-up">
-        <div class="result-before-after">
-          <div class="result-state">
-            <div class="result-label">Before</div>
-            <div class="result-value">$3K/mo</div>
-          </div>
-          <div class="result-arrow">→</div>
-          <div class="result-state">
-            <div class="result-label">After</div>
-            <div class="result-value">$52K/mo</div>
-          </div>
-        </div>
-        
-        <div class="result-name">Sarah Mitchell</div>
-        <div class="result-niche">Life Coach</div>
-        
-        <div class="result-quote">
-          "I was stuck doing discovery calls that went nowhere. Morgan's system showed me how to attract clients who were already sold on working with me. The difference was night and day."
-        </div>
-        
-        <div class="result-timeline">
-          ⏱️ Results in 4 months
-        </div>
-      </div>
-      
-      <div class="result-card" data-aos="fade-up" data-aos-delay="100">
-        <div class="result-before-after">
-          <div class="result-state">
-            <div class="result-label">Before</div>
-            <div class="result-value">$0/mo</div>
-          </div>
-          <div class="result-arrow">→</div>
-          <div class="result-state">
-            <div class="result-label">After</div>
-            <div class="result-value">$41K/mo</div>
-          </div>
-        </div>
-        
-        <div class="result-name">Marcus Rodriguez</div>
-        <div class="result-niche">Business Coach</div>
-        
-        <div class="result-quote">
-          "I thought I needed a huge following first. Morgan proved me wrong. Within 5 months of starting, I had a full client roster and a waitlist."
-        </div>
-        
-        <div class="result-timeline">
-          ⏱️ Results in 5 months
-        </div>
-      </div>
-      
-      <div class="result-card" data-aos="fade-up" data-aos-delay="200">
-        <div class="result-before-after">
-          <div class="result-state">
-            <div class="result-label">Before</div>
-            <div class="result-value">$8K/mo</div>
-          </div>
-          <div class="result-arrow">→</div>
-          <div class="result-arrow">→</div>
-          <div class="result-state">
-            <div class="result-label">After</div>
-            <div class="result-value">$67K/mo</div>
-          </div>
-        </div>
-        
-        <div class="result-name">Jennifer Park</div>
-        <div class="result-niche">Health Coach</div>
-        
-        <div class="result-quote">
-          "I was exhausted from content creation and still barely making $8K. This system freed up my time AND tripled my revenue in 6 months. I actually have a life now."
-        </div>
-        
-        <div class="result-timeline">
-          ⏱️ Results in 6 months
-        </div>
-      </div>
-      
-      <div class="result-card" data-aos="fade-up">
-        <div class="result-before-after">
-          <div class="result-state">
-            <div class="result-label">Before</div>
-            <div class="result-value">$5K/mo</div>
-          </div>
-          <div class="result-arrow">→</div>
-          <div class="result-state">
-            <div class="result-label">After</div>
-            <div class="result-value">$48K/mo</div>
-          </div>
-        </div>
-        
-        <div class="result-name">David Chen</div>
-        <div class="result-niche">Career Coach</div>
-        
-        <div class="result-quote">
-          "My old approach was feast or famine. One month $10K, next month $2K. Now I know exactly how many clients I'll sign each month. It's predictable."
-        </div>
-        
-        <div class="result-timeline">
-          ⏱️ Results in 3 months
-        </div>
-      </div>
-      
-      <div class="result-card" data-aos="fade-up" data-aos-delay="100">
-        <div class="result-before-after">
-          <div class="result-state">
-            <div class="result-label">Before</div>
-            <div class="result-value">$12K/mo</div>
-          </div>
-          <div class="result-arrow">→</div>
-          <div class="result-state">
-            <div class="result-label">After</div>
-            <div class="result-value">$71K/mo</div>
-          </div>
-        </div>
-        
-        <div class="result-name">Amanda Foster</div>
-        <div class="result-niche">Relationship Coach</div>
-        
-        <div class="result-quote">
-          "I'd tried three different 'gurus' before Morgan. They all sold me dreams. She showed me a system. The results speak for themselves."
-        </div>
-        
-        <div class="result-timeline">
-          ⏱️ Results in 5 months
-        </div>
-      </div>
-      
-      <div class="result-card" data-aos="fade-up" data-aos-delay="200">
-        <div class="result-before-after">
-          <div class="result-state">
-            <div class="result-label">Before</div>
-            <div class="result-value">$1K/mo</div>
-          </div>
-          <div class="result-arrow">→</div>
-          <div class="result-state">
-            <div class="result-label">After</div>
-            <div class="result-value">$39K/mo</div>
-          </div>
-        </div>
-        
-        <div class="result-name">Michael Torres</div>
-        <div class="result-niche">Leadership Coach</div>
-        
-        <div class="result-quote">
-          "I almost gave up on coaching. I'm glad I didn't. This system gave me a clear path forward and the confidence to charge what I'm worth."
-        </div>
-        
-        <div class="result-timeline">
-          ⏱️ Results in 4 months
-        </div>
+<!-- OFFER -->
+<section class="offer" id="offer">
+  <div class="offer-inner">
+    <div class="section-label reveal">Work With Morgan</div>
+    <div class="section-title reveal">Your $10K–$50K months<br><em style="font-style:italic; color:#ff6fa8;">are waiting.</em></div>
+    <p class="offer-sub reveal">Stop waiting for content to convert. Build the system that makes high-revenue months inevitable.</p>
+    <div class="offer-box reveal">
+      <ul class="offer-list">
+        <li>Magnetic positioning that attracts premium clients on autopilot</li>
+        <li>Proven DM outreach & lead generation systems</li>
+        <li>Sales conversation frameworks — close 70–80% of qualified calls</li>
+        <li>High-ticket offer architecture designed to scale</li>
+        <li>1:1 strategic guidance from someone who's lived the journey</li>
+      </ul>
+      <div class="offer-cta">
+        <a href="https://www.morgangillis.com" target="_blank" class="btn-hero">Apply to Work With Morgan →</a>
+        <div class="offer-note">Limited spots · Application required</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Testimonials Section -->
-<section class="testimonials-section" id="testimonials">
-  <div class="container">
-    <div data-aos="fade-up" style="text-align:center; max-width:800px; margin:0 auto;">
-      <span class="eyebrow">In Their Own Words</span>
-      <h2 class="section-title">What Coaches Say After Working Together</h2>
-    </div>
-    
-    <div class="testimonials-slider-wrapper">
-      <div class="testimonial-slide active">
-        <div class="testimonial-content">
-          <p class="testimonial-quote">
-            "I'd been spinning my wheels for two years, trying every strategy from every YouTube video. Morgan cut through all the noise and gave me a system I could actually follow. Six months later, I'm at $55K/month and finally have the freedom I started coaching for."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">L</div>
-            <div class="testimonial-info">
-              <div class="testimonial-name">Lisa Anderson</div>
-              <div class="testimonial-role">Mindset Coach</div>
-            </div>
-          </div>
-          <div class="testimonial-result">$0 to $55K/mo in 6 months</div>
-        </div>
-      </div>
-      
-      <div class="testimonial-slide">
-        <div class="testimonial-content">
-          <p class="testimonial-quote">
-            "The best part? I'm not hustling anymore. I used to post 3-4 times a day and do endless DM conversations. Now I have a system that brings me qualified leads consistently, and I spend my time actually coaching instead of chasing clients."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">K</div>
-            <div class="testimonial-info">
-              <div class="testimonial-name">Kevin Wright</div>
-              <div class="testimonial-role">Performance Coach</div>
-            </div>
-          </div>
-          <div class="testimonial-result">Went from burnout to $62K/mo</div>
-        </div>
-      </div>
-      
-      <div class="testimonial-slide">
-        <div class="testimonial-content">
-          <p class="testimonial-quote">
-            "I was skeptical at first—I'd been burned before. But Morgan's approach is different. She doesn't sell you hype. She shows you exactly what works and helps you implement it. My revenue tripled in 4 months, and more importantly, I finally understand how to keep it growing."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">T</div>
-            <div class="testimonial-info">
-              <div class="testimonial-name">Tiffany Moore</div>
-              <div class="testimonial-role">Wellness Coach</div>
-            </div>
-          </div>
-          <div class="testimonial-result">$15K to $48K/mo in 4 months</div>
-        </div>
-      </div>
-      
-      <div class="testimonial-slide">
-        <div class="testimonial-content">
-          <p class="testimonial-quote">
-            "What I appreciate most is the honesty. Morgan told me exactly what to expect, what would be hard, and what I'd need to commit to. No false promises. Just real talk and a proven system. I'm now at $44K/month and growing."
-          </p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">R</div>
-            <div class="testimonial-info">
-              <div class="testimonial-name">Robert Kim</div>
-              <div class="testimonial-role">Executive Coach</div>
-            </div>
-          </div>
-          <div class="testimonial-result">$7K to $44K/mo in 5 months</div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="testimonial-controls">
-      <button class="testimonial-arrow" id="prevSlide">←</button>
-      <div class="testimonial-dots">
-        <div class="dot active"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-      <button class="testimonial-arrow" id="nextSlide">→</button>
-    </div>
-  </div>
-</section>
-
-<!-- Objections Section -->
-<section class="objections-section" id="objections">
-  <div class="container">
-    <div data-aos="fade-up" style="text-align:center; max-width:800px; margin:0 auto 32px;">
-      <span class="eyebrow">Let's Be Real</span>
-      <h2 class="section-title">Questions You Probably Have</h2>
-    </div>
-    
-    <div class="objections-intro" data-aos="fade-up">
-      I get it. You've seen a lot of promises. You've maybe even tried things that didn't work. Here are the honest answers to the questions most coaches ask before we work together.
-    </div>
-    
-    <div class="objection-item" data-aos="fade-up">
-      <div class="objection-header" onclick="toggleCollapsible(this)">
-        <div class="objection-question">
-          <div class="objection-icon">💭</div>
-          <span>"I don't have a big following. Will this work for me?"</span>
-        </div>
-        <div class="objection-toggle">+</div>
-      </div>
-      <div class="collapsible-content">
-        <div class="collapsible-content-inner">
-          <p class="objection-answer">
-            Actually, a big following can be a distraction. Sarah had 200 followers when she started. Marcus had 0. They both scaled to $40K+ months because the system doesn't rely on your follower count—it relies on your ability to connect with the right people and convert them.
-          </p>
-          <div class="objection-proof">
-            <div class="objection-proof-label">Real Example:</div>
-            <div class="objection-proof-text">
-              Marcus Rodriguez started his coaching business from scratch—literally zero followers. Using the system, he identified his ideal clients, created targeted outreach, and had his first $10K month within 90 days. He's now consistently at $41K/mo.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="objection-item" data-aos="fade-up" data-aos-delay="100">
-      <div class="objection-header" onclick="toggleCollapsible(this)">
-        <div class="objection-question">
-          <div class="objection-icon">⏰</div>
-          <span>"I don't have time for more content creation."</span>
-        </div>
-        <div class="objection-toggle">+</div>
-      </div>
-      <div class="collapsible-content">
-        <div class="collapsible-content-inner">
-          <p class="objection-answer">
-            Good—because this isn't about posting 47 times a day. Jennifer was burning out creating content daily and barely making $8K. After switching to this system, she cut her content time by 70% and tripled her revenue. The system is designed for efficiency, not exhaustion.
-          </p>
-          <div class="objection-proof">
-            <div class="objection-proof-label">What Actually Works:</div>
-            <div class="objection-proof-text">
-              Most coaches waste time on content that doesn't convert. This system focuses on the 20% of activities that drive 80% of results. You'll spend less time creating and more time coaching paying clients.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="objection-item" data-aos="fade-up" data-aos-delay="200">
-      <div class="objection-header" onclick="toggleCollapsible(this)">
-        <div class="objection-question">
-          <div class="objection-icon">💰</div>
-          <span>"How do I know this isn't just another course that won't work?"</span>
-        </div>
-        <div class="objection-toggle">+</div>
-      </div>
-      <div class="collapsible-content">
-        <div class="collapsible-content-inner">
-          <p class="objection-answer">
-            Because it's not a course. It's a proven system with over 200 documented case studies of coaches who've used it to scale. You're not buying information—you're getting a step-by-step implementation plan that's already worked for coaches in your exact situation.
-          </p>
-          <div class="objection-proof">
-            <div class="objection-proof-label">The Difference:</div>
-            <div class="objection-proof-text">
-              Courses give you theory. This gives you implementation. You'll see exactly what Sarah did to go from $3K to $52K in 4 months, what Marcus did to launch from zero, and what Jennifer did to triple her revenue while working less. Then you'll adapt it to your business.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="objection-item" data-aos="fade-up">
-      <div class="objection-header" onclick="toggleCollapsible(this)">
-        <div class="objection-question">
-          <div class="objection-icon">🎯</div>
-          <span>"My niche is different. Will this work for my type of coaching?"</span>
-        </div>
-        <div class="objection-toggle">+</div>
-      </div>
-      <div class="collapsible-content">
-        <div class="collapsible-content-inner">
-          <p class="objection-answer">
-            This system has worked for life coaches, business coaches, health coaches, relationship coaches, career coaches, mindset coaches, and more. The framework is niche-agnostic because it's based on fundamental principles of client acquisition, not tactics that only work for one type of coaching.
-          </p>
-          <div class="objection-proof">
-            <div class="objection-proof-label">Proof Across Niches:</div>
-            <div class="objection-proof-text">
-              Sarah (life coaching), Marcus (business coaching), Jennifer (health coaching), David (career coaching), Amanda (relationship coaching), and Michael (leadership coaching) all used the same system. Different niches. Same framework. Same results.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="objection-item" data-aos="fade-up" data-aos-delay="100">
-      <div class="objection-header" onclick="toggleCollapsible(this)">
-        <div class="objection-question">
-          <div class="objection-icon">📊</div>
-          <span>"How long until I see results?"</span>
-        </div>
-        <div class="objection-toggle">+</div>
-      </div>
-      <div class="collapsible-content">
-        <div class="collapsible-content-inner">
-          <p class="objection-answer">
-            Most coaches see their first clients within 30-60 days of implementation. Full revenue transformation typically happens in 3-6 months. David hit $48K/month in 3 months. Jennifer took 6 months to reach $67K. The timeline depends on your commitment and current starting point.
-          </p>
-          <div class="objection-proof">
-            <div class="objection-proof-label">Real Timelines:</div>
-            <div class="objection-proof-text">
-              Fast movers (3 months): David Chen, Sarah Mitchell<br>
-              Steady builders (4-5 months): Marcus Rodriguez, Michael Torres, Amanda Foster<br>
-              Thorough implementers (6 months): Jennifer Park<br><br>
-              All of them got there. The pace is up to you.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="objection-item" data-aos="fade-up" data-aos-delay="200">
-      <div class="objection-header" onclick="toggleCollapsible(this)">
-        <div class="objection-question">
-          <div class="objection-icon">🤔</div>
-          <span>"I've tried other programs. What makes this different?"</span>
-        </div>
-        <div class="objection-toggle">+</div>
-      </div>
-      <div class="collapsible-content">
-        <div class="collapsible-content-inner">
-          <p class="objection-answer">
-            Three things: It's built from real implementation (I used this exact system to build my own $2.1M coaching business), it focuses on systems over tactics (so it keeps working even as platforms change), and it's proven by 200+ coaches who've gotten results—not just one person's success story.
-          </p>
-          <div class="objection-proof">
-            <div class="objection-proof-label">Why It Works:</div>
-            <div class="objection-proof-text">
-              Other programs sell you their story. This sells you a system. Amanda Foster tried three programs before this one. The difference? Those programs told her what worked for the guru. This showed her how to build what works for her business.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Process Section -->
-<section class="process-section" id="process">
-  <div class="container">
-    <div data-aos="fade-up" style="text-align:center; max-width:800px; margin:0 auto;">
-      <span class="eyebrow">The Path Forward</span>
-      <h2 class="section-title">How We'll Work Together</h2>
-      <p style="font-size:18px; color:var(--text-secondary); line-height:1.7; margin-top:16px;">
-        This isn't complicated. Here's exactly what happens when you decide to move forward.
-      </p>
-    </div>
-    
-    <div class="process-steps">
-      <div class="process-step" data-aos="fade-right">
-        <div class="process-step-number">1</div>
-        <div class="process-step-content">
-          <h3 class="process-step-title">Discovery Call</h3>
-          <p class="process-step-description">
-            We'll spend 45 minutes understanding where you are now, where you want to be, and whether this system is the right fit for your business. No pressure. No sales pitch. Just an honest conversation about whether this makes sense for you.
-          </p>
-          <div class="process-step-details">
-            <span class="process-detail-tag">45-minute call</span>
-            <span class="process-detail-tag">Your business audit</span>
-            <span class="process-detail-tag">Custom roadmap</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="process-step" data-aos="fade-right" data-aos-delay="100">
-        <div class="process-step-number">2</div>
-        <div class="process-step-content">
-          <h3 class="process-step-title">System Installation</h3>
-          <p class="process-step-description">
-            You'll get the complete client acquisition system—the same one used by all the coaches you've seen on this page. We'll adapt it to your niche, your strengths, and your schedule. No cookie-cutter templates. Just a proven framework customized for you.
-          </p>
-          <div class="process-step-details">
-            <span class="process-detail-tag">Full system access</span>
-            <span class="process-detail-tag">Personalized setup</span>
-            <span class="process-detail-tag">Implementation support</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="process-step" data-aos="fade-right" data-aos-delay="200">
-        <div class="process-step-number">3</div>
-        <div class="process-step-content">
-          <h3 class="process-step-title">Launch & Scale</h3>
-          <p class="process-step-description">
-            You'll start implementing the system and seeing your first results. As you hit each milestone, we'll optimize and scale what's working. Most coaches sign their first clients within 30-60 days and hit their revenue goals within 3-6 months.
-          </p>
-          <div class="process-step-details">
-            <span class="process-detail-tag">Weekly check-ins</span>
-            <span class="process-detail-tag">Real-time adjustments</span>
-            <span class="process-detail-tag">Ongoing optimization</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA Section -->
-<section class="cta-section" id="cta">
-  <div class="container">
-    <div class="cta-content" data-aos="fade-up">
-      <span class="eyebrow">Ready to Get Started?</span>
-      <h2 class="cta-title">Let's Talk About Your Business</h2>
-      <p class="cta-subtitle">
-        Book a no-pressure discovery call. We'll look at where you are, where you want to be, and map out exactly how to get there. If it's a fit, great. If not, I'll tell you honestly.
-      </p>
-      
-      <div class="cta-button-group">
-        <a href="#" class="btn btn-primary" style="font-size:18px; padding:20px 48px;">Schedule Your Call</a>
-      </div>
-      
-      <div class="cta-guarantee">
-        <span class="cta-guarantee-icon">✓</span>
-        <span class="cta-guarantee-text">Free 45-minute strategy session · No obligation · No high-pressure sales</span>
-      </div>
-      
-      <p class="cta-note">
-        Only booking calls with coaches who are serious about building a real business. If you're just browsing, that's okay—but let's not waste each other's time.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-content">
-      <div class="footer-brand">
-        <span class="footer-logo">Morgan Gillis</span>
-        <p class="footer-description">
-          Helping coaches build predictable, profitable businesses through proven client acquisition systems.
-        </p>
-      </div>
-      
-      <div>
-        <div class="footer-section-title">Quick Links</div>
-        <div class="footer-links">
-          <a href="#results" class="footer-link">Case Studies</a>
-          <a href="#testimonials" class="footer-link">Success Stories</a>
-          <a href="#process" class="footer-link">How It Works</a>
-          <a href="#cta" class="footer-link">Book a Call</a>
-        </div>
-      </div>
-      
-      <div>
-        <div class="footer-section-title">Legal</div>
-        <div class="footer-links">
-          <a href="#" class="footer-link">Privacy Policy</a>
-          <a href="#" class="footer-link">Terms of Service</a>
-          <a href="#" class="footer-link">Disclaimer</a>
-        </div>
-      </div>
-      
-      <div>
-        <div class="footer-section-title">Connect</div>
-        <div class="footer-links">
-          <a href="#" class="footer-link">Instagram</a>
-          <a href="#" class="footer-link">LinkedIn</a>
-          <a href="#" class="footer-link">Email</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="footer-bottom">
-      <div class="footer-copyright">
-        © 2026 Morgan Gillis. All rights reserved.
-      </div>
-      <div class="footer-socials">
-        <a href="#" class="social-link">📷</a>
-        <a href="#" class="social-link">💼</a>
-        <a href="#" class="social-link">✉️</a>
-      </div>
-    </div>
-  </div>
+<!-- FOOTER -->
+<footer>
+  <p>© 2024 Morgan Gillis · <a href="https://www.morgangillis.com" target="_blank">morgangillis.com</a> · <a href="https://www.instagram.com/iammorgangillis" target="_blank">@iammorgangillis</a></p>
 </footer>
 
-<!-- Back to Top Button -->
-<button class="back-to-top" id="backToTop">↑</button>
-
-<!-- External Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
 <script>
-  // Progress Bar
+  // NAV
+  const nav = document.getElementById('nav');
   window.addEventListener('scroll', () => {
-    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = (winScroll / height) * 100;
-    document.querySelector('.progress-bar').style.width = scrolled + '%';
+    nav.classList.toggle('scrolled', window.scrollY > 50);
   });
 
-  // Table of Contents
-  const tocSidebar = document.getElementById('tocSidebar');
-  const tocLinks = document.querySelectorAll('.toc-link');
-  const sections = document.querySelectorAll('section[id]');
-
-  window.addEventListener('scroll', () => {
-    // Show/hide TOC based on scroll position
-    if (window.scrollY > 800) {
-      tocSidebar.classList.add('visible');
-    } else {
-      tocSidebar.classList.remove('visible');
-    }
-    
-    // Highlight active section
-    let current = '';
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      if (window.scrollY >= sectionTop - 200) {
-        current = section.getAttribute('id');
+  // SCROLL REVEAL
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
       }
     });
-    
-    tocLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === '#' + current) {
-        link.classList.add('active');
-      }
-    });
-  });
+  }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
 
-  // Back to Top Button
-  const backToTop = document.getElementById('backToTop');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 500) {
-      backToTop.classList.add('visible');
+  document.querySelectorAll('.reveal').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      el.classList.add('visible');
     } else {
-      backToTop.classList.remove('visible');
-    }
-  });
-  
-  backToTop.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-
-  // Hide nav on scroll down, show on scroll up
-  let lastScroll = 0;
-  const nav = document.getElementById('mainNav');
-  
-  window.addEventListener('scroll', () => {
-    const currentScroll = window.scrollY;
-    
-    if (currentScroll <= 100) {
-      nav.classList.remove('hidden');
-      return;
-    }
-    
-    if (currentScroll > lastScroll && currentScroll > 100) {
-      nav.classList.add('hidden');
-    } else {
-      nav.classList.remove('hidden');
-    }
-    
-    lastScroll = currentScroll;
-  });
-
-  // Burger Menu Toggle
-  function toggleMenu() {
-    const burger = document.querySelector('.burger-menu');
-    const mobileMenu = document.getElementById('mobileMenu');
-    
-    burger.classList.toggle('active');
-    mobileMenu.classList.toggle('active');
-  }
-  
-  // Close menu when clicking on a link
-  document.querySelectorAll('.mobile-menu-links a').forEach(link => {
-    link.addEventListener('click', () => {
-      const burger = document.querySelector('.burger-menu');
-      const mobileMenu = document.getElementById('mobileMenu');
-      
-      burger.classList.remove('active');
-      mobileMenu.classList.remove('active');
-    });
-  });
-  
-  // Close menu when clicking outside
-  document.addEventListener('click', (e) => {
-    const burger = document.querySelector('.burger-menu');
-    const mobileMenu = document.getElementById('mobileMenu');
-    
-    if (burger && mobileMenu && !burger.contains(e.target) && !mobileMenu.contains(e.target)) {
-      burger.classList.remove('active');
-      mobileMenu.classList.remove('active');
+      observer.observe(el);
     }
   });
 
-  // Collapsible Sections
-  function toggleCollapsible(header) {
-    const section = header.parentElement;
-    const content = section.querySelector('.collapsible-content');
-    const contentInner = content.querySelector('.collapsible-content-inner');
-    
-    section.classList.toggle('active');
-    
-    if (section.classList.contains('active')) {
-      content.style.maxHeight = contentInner.scrollHeight + 'px';
-    } else {
-      content.style.maxHeight = '0';
-    }
-  }
-
-  // Apple-Style Testimonials Slider
-  let currentTestimonial = 0;
-  const testimonialSlides = document.querySelectorAll('.testimonial-slide');
-  const testimonialDots = document.querySelectorAll('.testimonial-dots .dot');
-  const totalSlides = testimonialSlides.length;
-
-  function showTestimonial(index) {
-    // Remove all states
-    testimonialSlides.forEach(slide => {
-      slide.classList.remove('active', 'prev');
-    });
-    
-    testimonialDots.forEach(dot => {
-      dot.classList.remove('active');
-    });
-    
-    // Add active state to current slide
-    testimonialSlides[index].classList.add('active');
-    testimonialDots[index].classList.add('active');
-    
-    // Add prev state to previous slide for exit animation
-    const prevIndex = currentTestimonial;
-    if (prevIndex !== index) {
-      testimonialSlides[prevIndex].classList.add('prev');
-    }
-    
-    currentTestimonial = index;
-  }
-
-  function nextTestimonial() {
-    const next = (currentTestimonial + 1) % totalSlides;
-    showTestimonial(next);
-  }
-
-  function prevTestimonial() {
-    const prev = (currentTestimonial - 1 + totalSlides) % totalSlides;
-    showTestimonial(prev);
-  }
-
-  // Dot navigation
-  testimonialDots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-      showTestimonial(index);
-    });
+  // COUNT-UP
+  document.querySelectorAll('.stat-num').forEach(el => {
+    const target = parseInt(el.dataset.target);
+    const prefix = el.dataset.prefix || '';
+    const suffix = el.dataset.suffix || '';
+    const countObserver = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      countObserver.unobserve(el);
+      let start = 0;
+      const step = target / (1600 / 16);
+      const timer = setInterval(() => {
+        start = Math.min(start + step, target);
+        el.textContent = prefix + Math.floor(start) + suffix;
+        if (start >= target) clearInterval(timer);
+      }, 16);
+    }, { threshold: 0.5 });
+    countObserver.observe(el);
   });
-
-  // Arrow navigation
-  document.getElementById('nextSlide').addEventListener('click', nextTestimonial);
-  document.getElementById('prevSlide').addEventListener('click', prevTestimonial);
-
-  // Auto-advance testimonials every 5 seconds
-  let testimonialInterval = setInterval(nextTestimonial, 5000);
-
-  // Pause auto-advance on hover
-  const sliderWrapper = document.querySelector('.testimonials-slider-wrapper');
-  sliderWrapper.addEventListener('mouseenter', () => {
-    clearInterval(testimonialInterval);
-  });
-
-  sliderWrapper.addEventListener('mouseleave', () => {
-    testimonialInterval = setInterval(nextTestimonial, 5000);
-  });
-
-  // Touch/swipe support for mobile
-  let touchStartX = 0;
-  let touchEndX = 0;
-
-  sliderWrapper.addEventListener('touchstart', (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-  });
-
-  sliderWrapper.addEventListener('touchend', (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-    handleSwipe();
-  });
-
-  function handleSwipe() {
-    if (touchEndX < touchStartX - 50) {
-      nextTestimonial();
-    }
-    if (touchEndX > touchStartX + 50) {
-      prevTestimonial();
-    }
-  }
-
-  // Keyboard navigation
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') {
-      prevTestimonial();
-    }
-    if (e.key === 'ArrowRight') {
-      nextTestimonial();
-    }
-  });
-  
-  // Smooth scroll for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
-    });
-  });
-
-  // Initialize AOS (Animate On Scroll)
-  if (typeof AOS !== 'undefined') {
-    AOS.init({
-      duration: 800,
-      easing: 'ease-out',
-      once: true,
-      offset: 100
-    });
-  }
-
-  // Initialize GSAP ScrollTrigger
-  if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
-    gsap.registerPlugin(ScrollTrigger);
-    
-    // Add subtle parallax effect to hero
-    gsap.to('.hero-section', {
-      yPercent: 30,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: '.hero-section',
-        start: 'top top',
-        end: 'bottom top',
-        scrub: true
-      }
-    });
-  }
 </script>
-
 </body>
 </html>
